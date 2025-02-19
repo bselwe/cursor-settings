@@ -1,0 +1,616 @@
+{
+    "json.validate.enable": false,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontFamily": "Meslo LG L DZ for Powerline",
+    "editor.fontFamily": "Meslo LG L DZ for Powerline",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "files.exclude": {
+        "*/.g.dart": true,
+        "*/.inject.dart": true,
+        "*/.inject.summary": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "*/.code-search": true,
+        "*/.fvm": true
+    },
+    "files.watcherExclude": {
+        "**/.dart_tool": true,
+        "*/.fvm": true
+    },
+    "files.autoSave": "off",
+    "editor.suggestSelection": "first",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 19,
+    "editor.codeActionsOnSave": {},
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "editor.snippetSuggestions": "top",
+    "editor.defaultFormatter": "Dart-Code.flutter",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "default",
+        "*.fa": "default"
+    },
+    "dart.flutterSdkPaths": [
+        "/Users/bartoszselwesiuk/fvm/versions"
+    ],
+    "dart.debugSdkLibraries": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "text.html.markdown.journal.task.open.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.marker",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.text",
+                "settings": {}
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.marker",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.text",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.scope",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            }
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "files.associations": {
+        "*.arb": "json"
+    },
+    "editor.accessibilitySupport": "off",
+    "debug.javascript.unmapMissingSources": true,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.guides.bracketPairs": true,
+    "workbench.editor.wrapTabs": true,
+    "dart.debugExternalPackageLibraries": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false,
+        "yaml": true,
+        "dart": true,
+        "arb": true
+    },
+    "simple-project-switcher.directory": "~/Development",
+    "commands.commands": {
+        "openTest": {
+            "sequence": [
+                {
+                    "command": "dart.goToTestOrImplementationFile",
+                    "delay": 0
+                },
+                {
+                    "command": "notifications.focusFirstToast",
+                    "delay": 500
+                }
+            ]
+        }
+    },
+    "editor.lineHeight": 0,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "editor.cursorSurroundingLines": 5,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 10,
+    "editor.minimap.enabled": false,
+    "git.mergeEditor": false,
+    "diffEditor.codeLens": true,
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "[swift]": {
+        "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
+    },
+    "apple-swift-format.path": "~/.mint/bin/swift-format",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "errorLens.excludeBySource": [
+        "eslint(import/named)"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "jest.autoRun": {
+        "watch": false
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.restore": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "lldb.suppressUpdateNotifications": true,
+    "dart.flutterSdkPath": "/Users/bartoszselwesiuk/fvm/versions/stable",
+    "editor.lineNumbers": "relative",
+    "cSpell.dictionaries": [
+        "allowed",
+        "forbidden"
+    ],
+    "cSpell.dictionaryDefinitions": [
+        {
+            "name": "allowed",
+            "path": "https://raw.githubusercontent.com/verygoodopensource/very_good_dictionaries/main/allowed.txt",
+            "description": "Allowed Spellings"
+        },
+        {
+            "name": "forbidden",
+            "path": "https://raw.githubusercontent.com/verygoodopensource/very_good_dictionaries/main/forbidden.txt",
+            "description": "Forbidden Spellings"
+        }
+    ],
+    "cSpell.useGitignore": true,
+    "cSpell.import": [
+        "~/Development/orb-mobile/.github/cspell.json"
+    ],
+    "window.zoomLevel": 0.5,
+    "gitlens.views.stashes.files.layout": "list",
+    "dart.showTodos": true,
+    "workbench.colorTheme": "Tokyo Night",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "cursor.cpp.disabledLanguages": [
+        "markdown",
+        "scminput"
+    ],
+    "git.suggestSmartCommit": false,
+    "security.promptForLocalFileProtocolHandling": false,
+    "goToPubDev.enableDartFiles": false,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.statusBarColorControl": false,
+    "vim.hlsearch": true,
+    "vim.smartRelativeLine": true,
+    "vim.highlightedyank.enable": true,
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-o>": false,
+        "<C-n>": false,
+        "<C-i>": false
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Center the screen after moving down.
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ]
+        },
+        // Center the screen after moving up.
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ]
+        },
+        // Splits
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                // Do nothing to avoid the default VSCode binding.
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "n"
+            ],
+            "commands": [
+                ":noh"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "after": [
+                "v",
+                "i",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.findInFiles",
+                // "extension.vim_escape"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<right>"
+            ],
+            "commands": [
+                "workbench.action.increaseViewSize",
+                "workbench.action.increaseViewSize"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<left>"
+            ],
+            "commands": [
+                "workbench.action.decreaseViewSize",
+                "workbench.action.decreaseViewSize"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<up>"
+            ],
+            "commands": [
+                "workbench.action.minimizeOtherEditors"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<down>"
+            ],
+            "commands": [
+                "workbench.action.evenEditorWidths"
+            ]
+        },
+        {
+            "before": [
+                "C-b"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "t",
+                "o"
+            ],
+            "commands": [
+                "openTest"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "t",
+                "s"
+            ],
+            "commands": [
+                "testing.runAtCursor"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "t",
+                "f"
+            ],
+            "commands": [
+                "testing.runCurrentFile"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "t",
+                "c"
+            ],
+            "commands": [
+                "testing.cancelRun"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "t",
+                "w"
+            ],
+            "commands": [
+                "testing.clearTestResults"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "after": [
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "after": [
+                "<",
+                "g",
+                "v"
+            ]
+        }
+    ]
+}
