@@ -429,7 +429,7 @@
     //     "when": "editorTextFocus"
     // },
     // Git shortcuts (you need to be in the source control focus to use these, `cmd+k cmd+g`)
-    // TODO: Fix git shortcuts.
+    // TODO: Fix git shortcuts when https://github.com/microsoft/vscode/issues/207066 is resolved.
     {
         "key": "cmd+s",
         "command": "git.stage",
